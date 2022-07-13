@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body class="p-5" style="width:600px ; height: 400px;">
+       <div>
+             <div class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img  src="https://videohive.img.customer.envatousercontent.com/files/c7c1a7b8-a4f1-4493-bdc9-7c9689678603/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=e48fb4b3f928c0952c02478ba1f96b9e" class="d-block w-100" alt="..."> 
+                              <div class="carousel-caption d-none d-md-block">
+                                   <h5>First slide label</h5>
+                                   <p>This is my first slide</p>                            
+                              </div>
+                        </div>
+                        <div class="carousel-item ">
+                               <img  src="https://apod.nasa.gov/apod/image/2204/VortexAurora_Suarez_1920.jpg" class="d-block w-100" alt="..."> 
+                                 <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>This is my first slide</p> 
+                                 </div>    
+                        </div>
+                       <div class="carousel-item active">
+                              <img src="https://help.apple.com/assets/5FFC96D2F7B393613B23EED9/5FFC96D2F7B393613B23EEE0/en_GB/a2c8dd21d7971197d0651e4ffdb89042.png" class="d-block w-100" alt="..." >     
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Thired slide label</h5>
+                                    <p>This is my first slide</p> 
+                                </div> 
+                      </div>    
+                    </div>
+             </div>       
+       </div>
+
+       <script>
+          $(function() {
+            $('.carousel').carousel({interval:2000})
+          })
+       </script>
+</body>
+</html>
